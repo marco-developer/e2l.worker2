@@ -1,0 +1,20 @@
+{
+  "name": "event2ledger",
+  "version": "1.0.0",
+  "description": "Collects and send docker events to hyperledger blockchain",
+  "author": "Marco A. Marques <marcoantonio.marques@gmail.com>",
+  "license": "MIT",
+  "main": "app.js",
+  "keywords": [
+    "nodejs",
+    "docker",
+    "hyperledger"
+  ],
+  "dependencies": {
+    "pump": "",
+    "ndjson": "",
+    "through2": "",
+    "hyperquest": "",
+    "request": ""
+  }
+}
