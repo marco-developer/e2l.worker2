@@ -14,4 +14,5 @@ Esta aplicação tem como objetivo realizar a coleta de eventos dos contêineres
 - docker build -t event2ledger .
 - docker run --name event2ledger -d event2ledger
 
-# e2l.worker2
+# Versões  
+- 0.2: Implementação para docker Swarm. Neste modelo há um coletor em execução em cada nó, responsável pela coleta de eventos relacionados à contêineres em execução naquele nó. No cenário do trabalho, os coletores pertencem ao provedor, sendo que cada um deles possui uma chave privada específica, com a qual assinam as transações contendo os eventos coletados. Isto garante a irretratabilidade do agente de coleta.
